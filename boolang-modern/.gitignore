@@ -1,0 +1,84 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Kotlin/Gradle
+.gradle/
+build/
+out/
+*.iml
+.idea/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+local.properties
+.cxx/
+.externalNativeBuild/
+
+# ANTLR Generated
+src/parser/generated/
+*.tokens
+*.interp
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node.js (for VS Code extension)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.vsix
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+
+# Lua
+luac.out
+
+# Build outputs
+*.dll
+*.so
+*.dylib
+*.exe
+*.wasm
+
+# Test outputs
+*.test
+*.prof
+
+# Documentation
+docs/_build/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.swp
+
+# OS specific
+Thumbs.db
+.DS_Store
