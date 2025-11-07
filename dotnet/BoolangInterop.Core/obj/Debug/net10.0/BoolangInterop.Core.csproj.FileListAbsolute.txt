@@ -1,0 +1,11 @@
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\bin\Debug\net10.0\BoolangInterop.Core.deps.json
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\bin\Debug\net10.0\BoolangInterop.Core.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\bin\Debug\net10.0\BoolangInterop.Core.pdb
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\BoolangInterop.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\BoolangInterop.Core.AssemblyInfoInputs.cache
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\BoolangInterop.Core.AssemblyInfo.cs
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\BoolangInterop.Core.csproj.CoreCompileInputs.cache
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\BoolangInterop.Core.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\refint\BoolangInterop.Core.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\BoolangInterop.Core.pdb
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Core\obj\Debug\net10.0\ref\BoolangInterop.Core.dll

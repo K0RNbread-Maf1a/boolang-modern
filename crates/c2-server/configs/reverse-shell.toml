@@ -1,0 +1,39 @@
+# Reverse Shell Server Configuration
+
+[server]
+bind_address = "0.0.0.0"
+port = 4444
+max_clients = 50
+timeout_seconds = 600
+
+[tls]
+enabled = true
+cert_path = "certs/shell-server.crt"
+key_path = "certs/shell-server.key"
+auto_generate = true
+domain = "shell.local"
+
+[shell]
+# Windows
+command = "powershell.exe"
+args = ["-NoProfile", "-NonInteractive"]
+# Linux/Mac: uncomment and comment above
+# command = "/bin/bash"
+# args = ["-i"]
+
+[[shell.environment]]
+key = "PSExecutionPolicyPreference"
+value = "Bypass"
+
+[logging]
+level = "info"
+file = "logs/shell.log"
+console = true
+
+[socks5]
+# Merino SOCKS5 proxy configuration for shell traffic
+enabled = true
+ip = "127.0.0.1"
+port = 1081
+users_csv = "configs/merino-users.csv"
+no_auth = false

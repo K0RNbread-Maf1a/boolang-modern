@@ -1,0 +1,39 @@
+# C2 Server Configuration
+
+[server]
+bind_address = "0.0.0.0"
+port = 8443
+max_clients = 100
+timeout_seconds = 300
+
+[tls]
+enabled = true
+cert_path = "certs/c2-server.crt"
+key_path = "certs/c2-server.key"
+auto_generate = true
+domain = "c2.local"
+
+[security]
+# Auth token for C2 agents - CHANGE THIS!
+auth_token = "CHANGE-ME-SECURE-TOKEN-HERE"
+# Base64 encoded 32-byte encryption key - CHANGE THIS!
+encryption_key = "CHANGE-ME-BASE64-KEY-HERE"
+# Allowed IP addresses (CIDR notation)
+allowed_ips = ["0.0.0.0/0"]
+
+[security.rate_limit]
+enabled = true
+max_requests_per_minute = 60
+
+[logging]
+level = "info"
+file = "logs/c2.log"
+console = true
+
+[socks5]
+# Merino SOCKS5 proxy configuration
+enabled = true
+ip = "127.0.0.1"
+port = 1080
+users_csv = "configs/merino-users.csv"
+no_auth = false

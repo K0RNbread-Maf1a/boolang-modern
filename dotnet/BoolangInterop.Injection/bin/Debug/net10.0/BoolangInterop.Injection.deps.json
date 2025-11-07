@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BoolangInterop.Injection/1.0.0": {
+        "dependencies": {
+          "BoolangInterop.Core": "1.0.0"
+        },
+        "runtime": {
+          "BoolangInterop.Injection.dll": {}
+        }
+      },
+      "BoolangInterop.Core/1.0.0": {
+        "runtime": {
+          "BoolangInterop.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BoolangInterop.Injection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoolangInterop.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

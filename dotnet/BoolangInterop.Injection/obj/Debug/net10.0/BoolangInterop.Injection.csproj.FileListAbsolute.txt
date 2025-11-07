@@ -1,0 +1,15 @@
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\bin\Debug\net10.0\BoolangInterop.Injection.deps.json
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\bin\Debug\net10.0\BoolangInterop.Injection.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\bin\Debug\net10.0\BoolangInterop.Injection.pdb
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\bin\Debug\net10.0\BoolangInterop.Core.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\bin\Debug\net10.0\BoolangInterop.Core.pdb
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.csproj.AssemblyReference.cache
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.AssemblyInfoInputs.cache
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.AssemblyInfo.cs
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.csproj.CoreCompileInputs.cache
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangI.E48A06A1.Up2Date
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\refint\BoolangInterop.Injection.dll
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\BoolangInterop.Injection.pdb
+C:\Users\redgh\boolang-modern\dotnet\BoolangInterop.Injection\obj\Debug\net10.0\ref\BoolangInterop.Injection.dll

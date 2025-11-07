@@ -1,0 +1,24 @@
+🚀 Key Capabilities
+
+Compilation Targets:
+•  .NET/CoreCLR for Windows/Linux/macOS
+•  JVM for Java ecosystem
+•  Android APKs for mobile
+•  Native executables via LLVM
+•  WebAssembly for browsers
+
+Extensibility:
+•  Lua for macros and build scripts
+•  Python for code analysis and tooling
+•  JavaScript for web integration
+•  Kotlin for JVM/Android codegen
+
+📝 Next Steps
+
+1. Download ANTLR4 and generate the Rust parser
+2. Test build with cargo build
+3. Implement the parser by wiring up ANTLR generated code
+4. Add type checking with Hindley-Milner inference
+5. Choose your first backend (.NET is easiest to start)
+6. Build the LSP server for IDE support
+7. Create VS Code extension for developer experience
