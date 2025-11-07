@@ -1,0 +1,7 @@
+boolang-modern/
+├── Rust Core (src/)           # High-performance compiler
+├── Kotlin/JVM (kotlin/)       # JVM bytecode generation
+├── Android (android/)         # Android APK support
+├── Dynamic Scripts (scripts/) # Lua, Python, JS, Kotlin
+├── Grammar (grammar/)         # ANTLR4 language definition
+└── VS Code (vscode-extension/)# Editor integration

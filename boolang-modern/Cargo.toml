@@ -1,0 +1,85 @@
+[package]
+name = "boolang-modern"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A modern multi-platform implementation of Boo language"
+license = "MIT OR Apache-2.0"
+
+[workspace]
+members = [".", "crates/*"]
+
+[dependencies]
+# Core parsing
+antlr-rust = "0.3"
+
+# LSP Server
+tower-lsp = "0.20"
+tokio = { version = "1.35", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+async-trait = "0.1"
+
+# AST and Type System
+petgraph = "0.6"
+indexmap = "2.1"
+
+# .NET Interop & IL Generation
+netcorehost = "0.15"
+
+# JVM/Kotlin Interop
+jni = "0.21"
+j4rs = "0.17"  # Java/Kotlin interop
+
+# Dynamic Runtimes
+mlua = { version = "0.9", features = ["lua54", "async", "serialize"] }
+pyo3 = { version = "0.20", features = ["auto-initialize"] }
+deno_core = "0.246"
+
+# LLVM for native compilation
+inkwell = { version = "0.4", features = ["llvm15-0"] }
+
+# Utilities
+anyhow = "1.0"
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+clap = { version = "4.4", features = ["derive"] }
+toml = "0.8"
+walkdir = "2.4"
+rayon = "1.8"  # Parallel compilation
+
+[dev-dependencies]
+pretty_assertions = "1.4"
+criterion = "0.5"
+proptest = "1.4"
+
+[build-dependencies]
+antlr-rust = "0.3"
+
+[features]
+default = ["dotnet", "jvm", "lua", "python", "javascript"]
+dotnet = ["netcorehost"]
+jvm = ["jni", "j4rs"]
+lua = ["mlua"]
+python = ["pyo3"]
+javascript = ["deno_core"]
+llvm = ["inkwell"]
+all = ["dotnet", "jvm", "lua", "python", "javascript", "llvm"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.dev]
+opt-level = 0
+
+[[bin]]
+name = "boolang"
+path = "src/main.rs"
+
+[[bin]]
+name = "boolang-lsp"
+path = "src/lsp/main.rs"
