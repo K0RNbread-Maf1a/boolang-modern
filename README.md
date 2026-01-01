@@ -6,7 +6,9 @@ A modern, multi-platform implementation of the Boo programming language with LSP
 
 Just play around with and tweak it to your standards and needs. Nevertheless, this repo which I have created, in my humble opinion, is the most excellent modern approach to boolang presently demonstrated on github. And THE ONLY ONE THAT ACTUALLY EVEN STILL USES ANY REAL, ACTUAL BOO SCRIPTING AT ALL!!! 
 
-Don't forget to check out the c2 and reverse shell that I have included in here as well. They work very excellent right out of the box. Just build with cargo. Again, for now, this all works best with python interpreters 3.10 to 3.12 and with pkgconfig (either via crate or alternate package management) for lua integration. 
+Don't forget to check out the dotnet directory which will help you create high-level managed wrapper scripts that allow creation of DLL-injection-scripts!!! Then, zoom over to the directory labled 'crates' and check out the c2 and reverse shell that I have included in here as well. They work very excellent right out of the box. Just run it with cargo, but you can build and debug another variant, if needed or desired.
+
+Again, for now, this all works best with python interpreters 3.10 to 3.12 and with pkgconfig/libtools (either via crate or alternate package management) for lua integration. 
 
 **WARNING** Just keep in mind that some of the low level coding demonstrated for Rust FFI bindings and such can be tricky and tedious. On top of that, with Rust FFI bindings the actual code which interfaces with the FFI (which will be C), can and WILL actually be unsafe and CAN BE HIGHLY UNPREDICTABLE AND HAVE MAJOR UNATTENDED CONSEQUENCES OR EFFECTS!!!! Also, the c2-server and reverse-shell crates and scripts are meant for educational purposes only! There's alot more you can do with this. Just keep in mind... 
 
