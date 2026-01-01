@@ -1,6 +1,17 @@
 # BooLang Modern
 
-A modern, multi-platform implementation of the Boo programming language with LSP support.
+A modern, multi-platform implementation of the Boo programming language with LSP support. 
+
+(STILL TODO: tweak and update rust deps and/or crates in toml... You may get error messages when building if using a python interpreter that is version 3.13 or newer as well as errors for when building compiler or configuring for lua5.4 as well...) 
+
+Just play around with and tweak it to your standards and needs. Nevertheless, this repo which I have created, in my humble opinion, is the most excellent modern approach to boolang presently demonstrated on github. And THE ONLY ONE THAT ACTUALLY EVEN STILL USES ANY REAL, ACTUAL BOO SCRIPTING AT ALL!!! 
+
+Don't forget to check out the c2 and reverse shell that I have included in here as well. They work very excellent right out of the box. Just build with cargo. Again, for now, this all works best with python interpreters 3.10 to 3.12 and with pkgconfig (either via crate or alternate package management) for lua integration. 
+
+**WARNING** Just keep in mind that some of the low level coding demonstrated for Rust FFI bindings and such can be tricky and tedious. On top of that, with Rust FFI bindings the actual code which interfaces with the FFI (which will be C), can and WILL actually be unsafe and CAN BE HIGHLY UNPREDICTABLE AND HAVE MAJOR UNATTENDED CONSEQUENCES OR EFFECTS!!!! Also, the c2-server and reverse-shell crates and scripts are meant for educational purposes only! There's alot more you can do with this. Just keep in mind... 
+
+I nor do any of my affiliates or anyone else associated with this repo or on github period condones misuse of open-source coding meant for education, and we will report and curb any suspicious activity or misuse or abuse of this or other similar repositories. Be smart... Whatever you might think or what you may be trying to do. I promise... You will get caught or visited by other misfortune and/or hinderance(s). You have been warned!!!
+**USE WITH CAUTION!!!**
 
 ## Architecture
 
@@ -111,7 +122,7 @@ boolang-modern/
 
 ```powershell
 # Clone the repository
-git clone <repo-url> boolang-modern
+git clone https://github.com/K0RNbread-Maf1a/boolang-modern
 cd boolang-modern
 
 # Build Rust core
